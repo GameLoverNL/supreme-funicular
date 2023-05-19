@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* HEADER */
+header {
+    padding: 1rem;
+    text-align: center;
+    color: #333;
+    height: 6em;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+header a svg {
+    fill: #333;
+}
+/* END OF HEADER */
+
+/* MAIN */
+
+main {
+    background-color: #333;
+    height: calc(100vh - 13em);
+    overflow: hidden;
+}
+
+main h2 {
+    font-size: 1.75em;
+    color: #fff;
+}
+
+    /* ABOUT */
+    .about {
+        text-align: center;
+        padding: 1em;
+        color: #e6e6e6;
+    }
+
+    .about p {
+        margin-top: 0.5em;
+        font-style: italic;
+    }
+    /* END OF ABOUT */
+
+.projects {
+    text-align: center;
+    max-width: 480px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.project-card {
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 320px;
+    background-color: red;
+}
+
+/* END OF MAIN */
+
+/* FOOTER */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    height: 5em;
+    background-color: #333;
+    width: 100%;
+    color: #fff;
+}
+
+/* END OF FOOTER */
